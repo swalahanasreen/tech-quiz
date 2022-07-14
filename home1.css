@@ -1,0 +1,45 @@
+body {
+    background: rgb(0, 17, 13);
+    /* background-image: url("../assets/log1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;*/
+}
+
+h1,
+h4 {
+    color: #fff;
+    padding: 10px 0;
+}
+
+.list-group .list-group-item {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    background-color: transparent;
+    color: whitesmoke;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(48, 2, 59, 0.959);
+    transition: 0.3s;
+    border: none;
+    background-color: rgba(16, 80, 30, 0.527);
+    font-size: x-large;
+    font-family: cursive;
+    color: white;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(114, 34, 34, 0.4);
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    text-decoration: initial;
+}
+
+.navbar-custom {
+    background-color: transparent;
+}
